@@ -48,11 +48,60 @@ h1,h2,h3,h4,h5 {
 .header-grid {
 	align-items: center;
 }
+/* Navigation links - white text, transparent borders to prevent layout shift */
 .header-nav a {
-	color: var(--contrast);
-}
-.header-nav .current a {
 	color: #fff;
+	/* Reset Pico button styles that cause layout shift */
+	--box-shadow: none !important;
+	box-shadow: none !important;
+	/* Add consistent border to prevent layout shift */
+	border: 2px solid transparent;
+	border-radius: 4px;
+	padding: 4px 8px;
+	transition: border-color 0.2s ease;
+	/* Lock down properties that could cause movement */
+	position: relative;
+	transform: none !important;
+	margin: 0;
+	text-decoration: none !important;
+	display: inline-block;
+}
+
+/* Active/current menu item - primary color border, NO background */
+.header-nav .current a,
+.header-nav a[aria-current] {
+	color: #fff;
+	border-color: var(--primary);
+	/* Keep box-shadow disabled */
+	--box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+/* Hover state - primary color border, NO background */
+.header-nav a:hover {
+	border-color: var(--primary);
+}
+
+/* Active/click state - primary color border, NO background, NO movement */
+.header-nav a:active {
+	border-color: var(--primary);
+	background-color: transparent !important;
+	--background-color: transparent !important;
+	/* Lock down positioning explicitly for active state */
+	transform: none !important;
+	margin: 0 !important;
+	padding: 4px 8px !important;
+	text-decoration: none !important;
+	position: relative !important;
+}
+
+/* Focus state - primary border, NO outline/shadow to prevent movement */
+.header-nav a:focus,
+.header-nav a:focus-visible {
+	border-color: var(--primary);
+	outline: none !important;
+	--box-shadow: none !important;
+	box-shadow: none !important;
 }
 /*added dropdown */
 .header-nav li {
@@ -259,4 +308,93 @@ h1,h2,h3,h4,h5 {
 }
 .content-grid-nosidebar .content-sidebar {
 	display: none;
+}
+
+/* Cards Section */
+.cards-section {
+	background-color: black;
+	padding: 60px 0;
+}
+
+.cards-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 30px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.problem-card {
+	background: rgba(255, 255, 255, 0.05);
+	border: 2px solid transparent;
+	border-radius: 8px;
+	overflow: hidden;
+	text-decoration: none;
+	color: white;
+	transition: all 0.3s ease;
+	display: flex;
+	flex-direction: column;
+}
+
+.problem-card:hover {
+	transform: translateY(-8px);
+	border-color: var(--primary);
+	box-shadow: 0 10px 30px rgba(115, 184, 222, 0.3);
+}
+
+.card-image {
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.card-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.problem-card:hover .card-image img {
+	transform: scale(1.05);
+}
+
+.problem-card h3 {
+	padding: 20px;
+	margin: 0;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 1199px) {
+	.cards-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 25px;
+	}
+}
+
+@media (max-width: 767px) {
+	.cards-section {
+		padding: 40px 0;
+	}
+	
+	.cards-grid {
+		grid-template-columns: 1fr;
+		gap: 20px;
+		padding: 0 15px;
+	}
+	
+	.card-image {
+		height: 200px;
+	}
+	
+	.problem-card h3 {
+		font-size: 1.3rem;
+		padding: 15px;
+	}
 }

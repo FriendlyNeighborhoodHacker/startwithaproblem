@@ -25,4 +25,40 @@
 &lt;div class=&quot;hero&quot;&gt;
 	&lt;div class=&quot;text-container&quot;&gt;Problems Worth&amp;nbsp;Solving&lt;/div&gt;
 &lt;/div&gt;
+
+&lt;section class=&quot;cards-section&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;cards-grid&quot;&gt;
+      
+      &lt;a href=&quot;/health&quot; class=&quot;problem-card&quot;&gt;
+        &lt;div class=&quot;card-image&quot;&gt;
+          &lt;img src=&quot;/data/uploads/health.png&quot; alt=&quot;Health&quot;&gt;
+        &lt;/div&gt;
+        &lt;h3&gt;Health&lt;/h3&gt;
+      &lt;/a&gt;
+      
+      &lt;a href=&quot;/energy&quot; class=&quot;problem-card&quot;&gt;
+        &lt;div class=&quot;card-image&quot;&gt;
+          &lt;img src=&quot;/data/uploads/energy.png&quot; alt=&quot;Energy&quot;&gt;
+        &lt;/div&gt;
+        &lt;h3&gt;Energy&lt;/h3&gt;
+      &lt;/a&gt;
+      
+      &lt;a href=&quot;/society&quot; class=&quot;problem-card&quot;&gt;
+        &lt;div class=&quot;card-image&quot;&gt;
+          &lt;img src=&quot;/data/uploads/society.png&quot; alt=&quot;Society&quot;&gt;
+        &lt;/div&gt;
+        &lt;h3&gt;Society&lt;/h3&gt;
+      &lt;/a&gt;
+      
+      &lt;a href=&quot;/sustainability&quot; class=&quot;problem-card&quot;&gt;
+        &lt;div class=&quot;card-image&quot;&gt;
+          &lt;img src=&quot;/data/uploads/climate.png&quot; alt=&quot;Climate&quot;&gt;
+        &lt;/div&gt;
+        &lt;h3&gt;Climate&lt;/h3&gt;
+      &lt;/a&gt;
+      
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
 ]]></content><private><![CDATA[]]></private><author><![CDATA[lilly]]></author></item>
