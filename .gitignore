@@ -1,0 +1,6 @@
+.DS_Store
+*.sw*
+/cache/
+.env
+/.vscode/*.log
+/logs/
