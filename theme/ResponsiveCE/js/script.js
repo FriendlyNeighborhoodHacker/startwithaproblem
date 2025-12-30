@@ -1,5 +1,7 @@
 const current = document.querySelector('.current a');
-current.setAttribute('role', 'button');
+if (current) {
+    current.setAttribute('role', 'button');
+}
 
 
 /* nav mobile */
@@ -59,3 +61,65 @@ if (document.querySelector('.showDropdown')) {
     });
 
 };
+
+/* Glossary Definition System */
+(function() {
+    // Create definition panel HTML
+    const panelHTML = `
+        <div class="definition-panel-overlay"></div>
+        <div class="definition-panel">
+            <button class="definition-close" aria-label="Close definition">&times;</button>
+            <div class="definition-term"></div>
+            <div class="definition-content"></div>
+        </div>
+    `;
+    
+    // Add panel to body
+    document.body.insertAdjacentHTML('beforeend', panelHTML);
+    
+    const panel = document.querySelector('.definition-panel');
+    const overlay = document.querySelector('.definition-panel-overlay');
+    const closeBtn = document.querySelector('.definition-close');
+    const termEl = document.querySelector('.definition-term');
+    const contentEl = document.querySelector('.definition-content');
+    
+    // Open definition
+    function openDefinition(term, definition) {
+        termEl.textContent = term;
+        contentEl.textContent = definition;
+        panel.classList.add('active');
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    
+    // Close definition
+    function closeDefinition() {
+        panel.classList.remove('active');
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    
+    // Click handlers for definition terms
+    document.addEventListener('click', function(e) {
+        if (e.target.closest('.def-term')) {
+            e.preventDefault();
+            const term = e.target.closest('.def-term');
+            const termText = term.textContent.trim();
+            const definition = term.getAttribute('data-definition');
+            openDefinition(termText, definition);
+        }
+    });
+    
+    // Close button
+    closeBtn.addEventListener('click', closeDefinition);
+    
+    // Click overlay to close
+    overlay.addEventListener('click', closeDefinition);
+    
+    // ESC key to close
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && panel.classList.contains('active')) {
+            closeDefinition();
+        }
+    });
+})();

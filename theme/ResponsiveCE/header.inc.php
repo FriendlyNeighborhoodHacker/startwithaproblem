@@ -37,6 +37,10 @@
 
                 <ul class=" header-nav hide-mobile">
                     <?php get_navigation(); ?>
+                    <li><a href="index.php#health-subcards">Health</a></li>
+                    <li><a href="index.php#energy-subcards">Energy</a></li>
+                    <li><a href="index.php#society-subcards">Society</a></li>
+                    <li><a href="index.php#climate-subcards">Climate</a></li>
                 </ul>
 
             </nav>

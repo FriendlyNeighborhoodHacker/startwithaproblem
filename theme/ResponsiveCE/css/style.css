@@ -1,6 +1,13 @@
 :root {
 	--font-size: 1rem;
 }
+
+/* Black background for pages */
+body {
+	background-color: #000 !important;
+	color: #fff;
+}
+
 ::marker {
 	color: var(--contrast);
 }
@@ -27,6 +34,9 @@ h1,h2,h3,h4,h5 {
 .header-home {
 	background: black;
 	padding: 1rem 0;
+	position: sticky;
+	top: 0;
+	z-index: 1000;
 }
 .header-mobile-btn {
 	width: 50px;
@@ -229,6 +239,11 @@ h1,h2,h3,h4,h5 {
 	padding: 2rem 0;
 	padding-bottom: 0;
 }
+
+/* Main content text size */
+.content-main p {
+	font-size: 24px;
+}
 .content-grid {
 	display: grid;
 	grid-column: 1fr;
@@ -249,6 +264,50 @@ h1,h2,h3,h4,h5 {
 .content-title {
 	padding-bottom: 1rem;
 	border-bottom: solid 1px var(--muted-border-color);
+}
+
+.content-title h1 {
+	font-size: 3.5rem;
+	font-weight: 700;
+	margin: 1rem 0 0.5rem 0;
+	padding: 1rem 0 0 0;
+	color: var(--primary);
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+/* Subcard questions */
+.subcard-question {
+	font-size: 1.65rem !important;
+	font-weight: 700;
+	color: var(--primary);
+	margin: 0.5rem 0 1rem 0;
+	line-height: 1.6;
+	text-align: center;
+}
+
+@media (max-width: 767px) {
+	.content-title h1 {
+		font-size: 2.5rem;
+	}
+}
+
+/* Article images - float right with text wrap */
+.article-image {
+	float: right;
+	max-width: 400px;
+	width: 40%;
+	margin: 0 0 20px 30px;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+	.article-image {
+		float: none;
+		width: 100%;
+		margin: 20px 0;
+	}
 }
 .content-sidebar h2 {
 	padding-bottom: 10px;
@@ -316,6 +375,18 @@ h1,h2,h3,h4,h5 {
 	padding: 60px 0;
 }
 
+.subcards-section {
+	padding-top: 80px;
+}
+
+.section-title {
+	color: white;
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+
 .cards-grid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -370,6 +441,22 @@ h1,h2,h3,h4,h5 {
 	color: white;
 }
 
+/* Ensure subcard titles appear beneath images */
+.problem-card.subcard {
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+.problem-card.subcard .card-image {
+	width: 100%;
+	flex-shrink: 0;
+}
+
+.problem-card.subcard h3 {
+	width: 100%;
+	display: block;
+}
+
 /* Responsive Design */
 @media (max-width: 1199px) {
 	.cards-grid {
@@ -396,5 +483,102 @@ h1,h2,h3,h4,h5 {
 	.problem-card h3 {
 		font-size: 1.3rem;
 		padding: 15px;
+	}
+}
+
+/* Glossary Definition System */
+.def-term {
+	color: var(--primary);
+	cursor: pointer;
+	position: relative;
+	transition: opacity 0.2s ease;
+	border-bottom: 1px dotted var(--primary);
+}
+
+.def-term:hover {
+	opacity: 0.8;
+}
+
+/* Definition Panel */
+.definition-panel {
+	position: fixed;
+	top: 0;
+	left: -400px;
+	width: 350px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.95);
+	border-right: 2px solid var(--primary);
+	padding: 2rem;
+	z-index: 10000;
+	transition: left 0.3s ease;
+	overflow-y: auto;
+	box-shadow: 5px 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.definition-panel.active {
+	left: 0;
+}
+
+.definition-panel-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 9999;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.3s ease;
+}
+
+.definition-panel-overlay.active {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.definition-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: none;
+	border: none;
+	color: var(--primary);
+	font-size: 2.5rem;
+	cursor: pointer;
+	line-height: 1;
+	padding: 0.5rem;
+	transition: opacity 0.2s ease;
+	z-index: 1;
+	width: 3rem;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.definition-close:hover {
+	opacity: 0.7;
+}
+
+.definition-term {
+	color: var(--primary);
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid var(--primary);
+}
+
+.definition-content {
+	color: #fff;
+	font-size: 1.1rem;
+	line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+	.definition-panel {
+		width: 100%;
+		right: -100%;
 	}
 }
