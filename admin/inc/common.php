@@ -165,7 +165,12 @@ if (file_exists($thisfilew)) {
 } else {
 	$SITENAME = '';
 	$SITEURL = '';
-} 
+}
+
+/** Development override from config.dev.php */
+if (defined('GS_DEV_SITEURL')) {
+	$SITEURL = GS_DEV_SITEURL;
+}
 
 /** grab user data */
 if (isset($_COOKIE['GS_ADMIN_USERNAME'])) {
