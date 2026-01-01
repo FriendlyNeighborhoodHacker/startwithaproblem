@@ -136,7 +136,7 @@ function theme_custom_fields_display() {
 			case 'text':
 				echo '<input type="text" class="text" id="custom-field-' . htmlspecialchars($field_name) . '" name="custom-field-' . htmlspecialchars($field_name) . '" value="' . htmlspecialchars($value, ENT_QUOTES, 'UTF-8') . '" placeholder="' . htmlspecialchars($placeholder) . '" />';
 				if ($hint) {
-					echo '<span class="hint">' . htmlspecialchars($hint) . '</span>';
+					echo '<br><span class="hint">' . htmlspecialchars($hint) . '</span>';
 				}
 				break;
 				

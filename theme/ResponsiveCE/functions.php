@@ -43,6 +43,18 @@ $defaultGrid =  'default';
 
 function theme_custom_field_definitions() {
 	return array(
+		'categoryName' => array(
+			'label' => 'Category Name',
+			'type' => 'text',
+			'placeholder' => 'e.g., Health, Energy, Society, Climate',
+			'hint' => 'The display name of the category'
+		),
+		'categoryLink' => array(
+			'label' => 'Category Link',
+			'type' => 'text',
+			'placeholder' => 'e.g., index.php#health-subcards',
+			'hint' => 'The URL to link back to the category section'
+		),
 		'subcardQuestion' => array(
 			'label' => 'Subcard Question',
 			'type' => 'textarea',
