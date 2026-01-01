@@ -258,6 +258,45 @@ h1,h2,h3,h4,h5 {
 .content-sidebar ul::marker {
 	color: #000;
 }
+
+* Article figures with captions - float right */
+figure.article_image {
+	float: right;
+	max-width: 400px;
+	width: 40%;
+	margin: 0 0 20px 30px;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+figure.article_image img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0;
+	border-radius: 0;
+}
+
+figure.article_image figcaption {
+	text-align: center;
+	font-style: italic;
+	font-size: 0.9rem;
+	padding: 10px;
+	margin: 0;
+	background: rgba(255, 255, 255, 0.05);
+	color: var(--muted-color);
+	line-height: 1.4;
+}
+
+@media (max-width: 767px) {
+	figure.article_image {
+		float: none;
+		width: 100%;
+		margin: 20px 0;
+	}
+}
+
 .content-sidebar h2 {
 	margin-bottom: 10px;
 }
