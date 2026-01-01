@@ -133,8 +133,8 @@ define('GSAUTOMETAD',TRUE);
  * Load config.dev.php if it exists (for local development overrides).
  * This file should be gitignored and never committed to version control.
  */
-if (file_exists(GSROOTPATH . 'config.dev.php')) {
-	require_once(GSROOTPATH . 'config.dev.php');
+if (file_exists(__DIR__ . '/config.dev.php')) {
+	require_once(__DIR__ . '/config.dev.php');
 }
 
 ?>
