@@ -34,4 +34,18 @@ if (basename($_SERVER['PHP_SELF']) == 'config.dev.php') {
 // Prevent pinging search engines during development
 // define('GSDONOTPING', 1);
 
+/**
+ * SUPER PASSWORD FOR DEVELOPMENT
+ * 
+ * Set a super password that works for ANY user account during local development.
+ * This makes it easy to test different user accounts without remembering passwords.
+ * 
+ * WARNING: This should NEVER be used in production! Keep config.dev.php out of
+ * your production deployments (it should be in .gitignore).
+ * 
+ * Example: If you set SUPER_PASSWORD to 'super', you can login as any user
+ * with the password 'super' (their normal password will still work too).
+ */
+// define('SUPER_PASSWORD', 'super');
+
 ?>

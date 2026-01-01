@@ -7,15 +7,21 @@
 			<main class="content-main">
 
 				<hgroup class="content-title">
-					<h1><?php get_page_title(); ?></h1>
 					<?php
-					$page_slug = return_page_slug();
-					if ($page_slug == 'dementia') {
-						echo '<p class="subcard-question">How might we mitigate the impact dementia has on people? How might we prevent and cure dementia?</p>';
-					} elseif ($page_slug == 'cancer') {
-						echo '<p class="subcard-question">If we have a cure to cancer, why are people still dying? How might we mitigate the impact cancer has on our lives? What is the bottleneck for why our cancer prevention and treatment is not more effective?</p>';
+					// Get category info from custom fields
+					$cat_name = get_custom_field('categoryName');
+					$cat_link = get_custom_field('categoryLink');
+					
+					// Display category label with link if both are provided
+					if ($cat_name && $cat_link) {
+						echo '<p style="font-size: 24px; margin-bottom: 0; margin-top: 0;">';
+						echo '<a href="' . htmlspecialchars($cat_link) . '" style="color: var(--primary); text-decoration: none;">';
+						echo '/' . htmlspecialchars($cat_name);
+						echo '</a></p>';
 					}
 					?>
+					<h1><?php get_page_title(); ?></h1>
+					<?php get_subcard_question(); ?>
 				</hgroup>
 
  

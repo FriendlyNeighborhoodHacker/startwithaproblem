@@ -7,3 +7,4 @@
 
 # Development configuration override
 config.dev.php
+/data/cache/
