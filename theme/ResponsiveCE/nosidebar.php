@@ -16,15 +16,15 @@
 					$society_pages = array('unsafe-drinking-water', 'homelessness');
 					$climate_pages = array('sustainable-farming');
 					
-					// Display category label
+					// Display category label with link back to homepage section
 					if (in_array($page_slug, $health_pages)) {
-						echo '<p style="font-size: 24px; color: var(--primary); margin-bottom: 0.5rem; margin-top: 0;">/Health</p>';
+						echo '<p style="font-size: 24px; margin-bottom: 0; margin-top: 0;"><a href="index.php#health-subcards" style="color: var(--primary); text-decoration: none;">/Health</a></p>';
 					} elseif (in_array($page_slug, $energy_pages)) {
-						echo '<p style="font-size: 24px; color: var(--primary); margin-bottom: 0.5rem; margin-top: 0;">/Energy</p>';
+						echo '<p style="font-size: 24px; margin-bottom: 0; margin-top: 0;"><a href="index.php#energy-subcards" style="color: var(--primary); text-decoration: none;">/Energy</a></p>';
 					} elseif (in_array($page_slug, $society_pages)) {
-						echo '<p style="font-size: 24px; color: var(--primary); margin-bottom: 0.5rem; margin-top: 0;">/Society</p>';
+						echo '<p style="font-size: 24px; margin-bottom: 0; margin-top: 0;"><a href="index.php#society-subcards" style="color: var(--primary); text-decoration: none;">/Society</a></p>';
 					} elseif (in_array($page_slug, $climate_pages)) {
-						echo '<p style="font-size: 24px; color: var(--primary); margin-bottom: 0.5rem; margin-top: 0;">/Climate</p>';
+						echo '<p style="font-size: 24px; margin-bottom: 0; margin-top: 0;"><a href="index.php#climate-subcards" style="color: var(--primary); text-decoration: none;">/Climate</a></p>';
 					}
 					?>
 					<h1><?php get_page_title(); ?></h1>
