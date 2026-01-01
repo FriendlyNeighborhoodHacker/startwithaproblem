@@ -1,0 +1,37 @@
+<?php
+/**
+ * Development Configuration Override - EXAMPLE
+ * 
+ * Copy this file to config.dev.php and customize for your local environment.
+ * The actual config.dev.php file should never be committed to version control.
+ * 
+ * @package GetSimple
+ */
+
+/** Prevent direct access */
+if (basename($_SERVER['PHP_SELF']) == 'config.dev.php') { 
+	die('You cannot load this page directly.');
+}
+
+/**
+ * SITE URL OVERRIDE
+ * 
+ * Override the Site URL from website.xml for local development.
+ * Uncomment and customize for your local setup:
+ */
+// define('GS_DEV_SITEURL', 'http://localhost:8000/');
+// define('GS_DEV_SITEURL', 'http://localhost:3000/');
+// define('GS_DEV_SITEURL', 'http://myproject.local/');
+
+/**
+ * ADDITIONAL DEVELOPMENT SETTINGS
+ * 
+ * You can add other development-specific overrides here:
+ */
+// Enable debug mode for development
+// define('GSDEBUG', TRUE);
+
+// Prevent pinging search engines during development
+// define('GSDONOTPING', 1);
+
+?>

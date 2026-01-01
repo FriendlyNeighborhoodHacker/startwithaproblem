@@ -4,3 +4,6 @@
 .env
 /.vscode/*.log
 /logs/
+
+# Development configuration override
+config.dev.php

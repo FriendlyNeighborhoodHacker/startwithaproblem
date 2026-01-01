@@ -127,4 +127,14 @@ define('GSAUTOMETAD',TRUE);
 # Ignore user browser language
 # define('I18N_IGNORE_USER_LANGUAGE',TRUE);
 
+/**
+ * Development Environment Override
+ * 
+ * Load config.dev.php if it exists (for local development overrides).
+ * This file should be gitignored and never committed to version control.
+ */
+if (file_exists(GSROOTPATH . 'config.dev.php')) {
+	require_once(GSROOTPATH . 'config.dev.php');
+}
+
 ?>
