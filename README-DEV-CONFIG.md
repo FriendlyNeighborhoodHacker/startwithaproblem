@@ -61,6 +61,39 @@ define('GSDONOTPING', 1);
 // define('GSADMIN', 'admin');
 ```
 
+### Super Password for Development
+
+**NEW**: You can now set a super password that works for ANY user account during local development:
+
+```php
+// Super password - works for any user during development
+define('SUPER_PASSWORD', 'super');
+```
+
+**How it works:**
+- Login to the admin panel with any username
+- Use the super password (e.g., 'super') instead of the actual password
+- You'll be authenticated as that user immediately
+- The user's normal password still works too!
+
+**Use cases:**
+- Testing different user accounts without remembering passwords
+- Quick access during development
+- No need to reset passwords when testing
+
+**Security:**
+- ⚠️ **WARNING**: This should NEVER be used in production!
+- The `config.dev.php` file is gitignored and won't be deployed
+- Only works when `SUPER_PASSWORD` is explicitly defined
+- Leave undefined (or comment out) to disable this feature
+
+**Example workflow:**
+1. Add `define('SUPER_PASSWORD', 'dev123');` to your `config.dev.php`
+2. Go to admin login page
+3. Enter username: `admin` (or any valid user)
+4. Enter password: `dev123` (your super password)
+5. You're logged in! 🎉
+
 ## Files Involved
 
 - **`config.dev.php.example`** - Template file (committed to repo)

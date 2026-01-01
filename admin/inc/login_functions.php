@@ -42,8 +42,17 @@ if(isset($_POST['submitted'])) {
 			$PASSWD = $data->PWD;
 			$USR = strtolower($data->USR);
 
-			# do the username and password match?
-			if ( ($userid == $USR) && ($password == $PASSWD) ) {
+			# Check for super password in development mode
+			$super_password_match = false;
+			if (defined('SUPER_PASSWORD') && !empty(SUPER_PASSWORD)) {
+				# Compare the plain text password (before hashing) with SUPER_PASSWORD
+				if ($_POST['pwd'] === SUPER_PASSWORD) {
+					$super_password_match = true;
+				}
+			}
+
+			# do the username and password match (or is super password used)?
+			if ( ($userid == $USR) && (($password == $PASSWD) || $super_password_match) ) {
 				$authenticated = true;
 			} else {
 				$authenticated = false;
