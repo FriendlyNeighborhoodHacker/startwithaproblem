@@ -1,5 +1,7 @@
 :root {
 	--font-size: 1rem;
+	--color: #f3f3f3 !important;
+	--muted-color: #eee;
 }
 
 /* Black background for pages */
@@ -319,9 +321,12 @@ figure.article_image figcaption {
 .subcard-question {
 	font-size: 24px;
 	font-style: italic;
-	color: #EBF0F3;
+	color: var(--color) !important;
 	margin: 0.5rem 0 1rem 0;
 	line-height: 1.6;
+}
+p.subcard-question {
+	color: var(--color);
 }
 
 @media (max-width: 767px) {
