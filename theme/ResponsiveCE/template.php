@@ -3,27 +3,27 @@
 
 <section class="content">
 	<div class="container">
-		<div class="content-grid 
-		<?php if ($defaultGrid == 'left') {
-			echo 'content-grid-left';
-		} elseif ($defaultGrid  == 'without') {
-			echo 'content-grid-nosidebar';
-		}; ?>
-		">
+		<div class="content-grid content-grid-nosidebar">
 			<main class="content-main">
 
 				<hgroup class="content-title">
+					<?php
+					// Get category info from custom fields
+					$cat_name = get_custom_field('categoryName');
+					$cat_link = get_custom_field('categoryLink');
+					
+					// Display category label with link if both are provided
+					if ($cat_name && $cat_link) {
+						echo '<p style="font-size: 24px; margin-bottom: 0; margin-top: 0;">';
+						echo '<a href="' . htmlspecialchars($cat_link) . '" style="color: var(--primary); text-decoration: none;">';
+						echo '/' . htmlspecialchars($cat_name);
+						echo '</a></p>';
+					}
+					?>
 					<h1><?php get_page_title(); ?></h1>
-
-					<nav aria-label="breadcrumb">
-
-						<ul>
-							<li><a href="<?php get_site_url(); ?>"><?php get_site_name(); ?></a></li>
-							<li><a href="<?php get_site_url(); ?>"><?php get_page_title(); ?></a></li>
-						</ul>
-
-					</nav>
+					<?php get_subcard_question(); ?>
 				</hgroup>
+
  
 				<?php get_page_content(); ?>
 			</main>

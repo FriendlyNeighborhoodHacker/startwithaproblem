@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Thu, 27 Nov 2025 20:16:16 +0000</pubDate><title><![CDATA[Cavities]]></title><url><![CDATA[cavities]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Cavities]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[nosidebar.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;img src=&quot;/data/uploads/cavities_article_image.png&quot; alt=&quot;Cavities&quot; class=&quot;article-image&quot;&gt;
+<item><pubDate>Thu, 01 Jan 2026 16:23:57 -0800</pubDate><title>Cavities</title><url>cavities</url><meta></meta><metad></metad><menu>Cavities</menu><menuOrder>0</menuOrder><menuStatus></menuStatus><template>nosidebar.php</template><parent></parent><content>&amp;lt;figure class=&amp;quot;article_image&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;/data/uploads/cavities_article_image.png&amp;quot; /&amp;gt;
+&amp;lt;figcaption&amp;gt;2.24 billion people have untreated decay in their permanent teeth.&amp;lt;/figcaption&amp;gt;
+&amp;lt;/figure&amp;gt;
 
-&lt;p&gt;This is the Cavities page.&lt;/p&gt;
-]]></content><private><![CDATA[]]></private><author><![CDATA[lilly]]></author></item>
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Today, 2.24 billion people have untreated decay in their permanent teeth (Machado, 2025), making cavities the world&amp;#039;s most common chronic disease. &amp;lt;/strong&amp;gt;Oral diseases cost the world about $710 billion per year in treatment and lost productivity (Machado, 2025). About 60-90% of schoolchildren worldwide have cavities, and in low-income countries the problem is worse because billions lack access to affordable dental services (WHO, 2023). The main issue is that we have no one-time, long-lasting solution for tooth decay – keeping cavities at bay still demands constant effort (daily brushing with fluoride, avoiding sugar, regular dental visits) that many people cannot maintain.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;There are a number of promising approaches being explored to help:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;1. Biological interventions&amp;lt;/strong&amp;gt; – vaccines and microbiome engineering to target the bacteria that cause cavities. Dental caries is essentially an infectious process: bacteria in plaque (especially Streptococcus mutans) ferment sugars into acids that erode tooth enamel.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(A) Cavity vaccines to train the immune system to fight decay-causing bacteria.&amp;lt;/strong&amp;gt; Researchers have pursued caries vaccines for decades. A Chinese research team tested an inhaled vaccine in rats that triggered antibodies in saliva and led to fewer cavities forming (Yang, 2017). While no human vaccine is available yet (intrinsic challenges and low commercial incentives have slowed progress), the concept remains active in labs.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(B) Engineered probiotics that replace harmful bacteria with harmless strains.&amp;lt;/strong&amp;gt; Scientists created a genetically modified S. mutans (strain BCS3-L1) that does not produce lactic acid (the enamel-dissolving acid) and instead secretes bacteriocins that kill native S. mutans. In rats, a single application of this modified bacteria gave lifetime protection against cavities (Wikipedia, 2025). A startup began offering this as a product (&amp;quot;Lumina&amp;quot; probiotic) in 2025, though without published human trial data yet (luminaprobiotic.com, 2025).&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(C) Targeted probiotics and bacteriophage therapy.&amp;lt;/strong&amp;gt; Researchers are testing strains of Lactobacillus dubbed &amp;quot;L. anti-caries&amp;quot; that can be delivered in chewing gum to prevent S. mutans from sticking to teeth (Guo, 2023). Even bacteriophage therapy – using viruses that infect and destroy specific oral bacteria – is being explored as a precision tool against plaque microbes (Bachrach et al.).&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;2. Tooth strengthening and remineralization innovations – making teeth more resistant to decay and healing early damage before it becomes a cavity.&amp;lt;/strong&amp;gt; These include chemical and material advances that prevent or reverse decay directly. Some innovations being developed here are:&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(A) Silver Diamine Fluoride (SDF) to stop cavities from progressing.&amp;lt;/strong&amp;gt; SDF is a liquid that can be painted on a decayed tooth to freeze the cavity. It kills bacteria and hardens the softened dentin. A randomized school-based trial found that applying SDF (plus fluoride varnish) to children&amp;#039;s teeth was as effective as placing traditional sealants over 2 years (JAMA Network Open, 2022). The downside is SDF leaves a black stain on the treated tooth, but for baby teeth or out-of-sight areas, arresting decay is often worth the cosmetic trade-off.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(B) Dental sealants to prevent cavities in molars.&amp;lt;/strong&amp;gt; Sealants are clear or white protective coatings applied to the grooves of molars. They have been shown to prevent around 50–80% of cavities in sealed teeth for years after application (CDC, 2016; Moby Dental, 2023). Innovations here focus on making them more accessible (e.g., training nurses to apply them in schools, or developing sealant materials that release fluoride over time).&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(C) Enamel regenerating peptides that help teeth remineralize naturally.&amp;lt;/strong&amp;gt; Researchers developed a peptide called P11-4 that self-assembles into a scaffold within an early-stage cavity and attracts calcium and phosphate from saliva (Tawakoli, 2015). A product using this peptide (sold as Curodont™) has shown positive results in regenerating early lesions without drilling (Tawakoli, 2015).&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(D) Arginine-enriched toothpaste to shift the oral microbiome.&amp;lt;/strong&amp;gt; Arginine (an amino acid) combined with calcium serves as a nutrient for certain bacteria in plaque that generate alkali (base), which can neutralize acids (ADA, 2022). Early studies indicate that arginine-enriched toothpaste can shift the oral microbiome to a less acidic, more protective state (ADA, 2022).&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;3. Public health and preventive policy measures – treating cavities as a population-level challenge. &amp;lt;/strong&amp;gt;These strategies change the broader environment in which people get cavities, from the foods and drinks available to community health infrastructure and policies. Some key initiatives being developed here are:&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(A) Fluoridated salt as an alternative to water fluoridation.&amp;lt;/strong&amp;gt; Over 30 countries (notably in Latin America and Europe) add low levels of fluoride to table salt. Countries that adopted salt fluoridation have seen huge drops in childhood cavity rates – in some cases up to &amp;lt;strong&amp;gt;80% fewer cavities over a decade of implementation&amp;lt;/strong&amp;gt; (Rugg-Gunn, 2001).&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;(B) School-based sealant and fluoride varnish programs.&amp;lt;/strong&amp;gt; Expanding access to preventive care through schools can reach children who lack regular dental visits. Programs that apply sealants or fluoride varnish in schools have been shown to significantly reduce cavities in underserved populations.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+
+&amp;lt;hr&amp;gt;
+
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;References:&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Bachrach, Gilad, et al. “Bacteriophage Isolation from Human Saliva.” Letters in Applied Microbiology, vol. 36, no. 1, 2003, pp. 50–53. **doi:**10.1046/j.1472-765x.2003.01262.x.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Bagramian, Robert A., et al. “The Global Increase in Dental Caries. A Pending Public Health Crisis.” American Journal of Dentistry, 2009. – Although slightly older, this article provides context on how changing diets (sugar availability) and insufficient preventive measures were leading to rising caries in many countries. (Reinforces that without systemic changes, cavities continue to escalate, especially in developing nations.)&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Crystal, Yasmi O., et al. “Effect of Silver Diamine Fluoride on Caries Arrest and Prevention.” JAMA Network Open, 2023. – A large school-based clinical trial showing that annual 38% silver diamine fluoride applications were as effective as sealants in preventing new cavities. (Demonstrates the power of simple, non-invasive treatments in community settings and supports SDF as a game-changing therapy.)&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Guo, Meng, et al. “Lactobacillus paracasei ET-22 Suppresses Dental Caries by Regulating Microbiota of Dental Plaques and Inhibiting Biofilm Formation.” Nutrients, vol. 15, no. 15, 26 July 2023, article 3316, PMC10421449, doi:10.3390/nu15153316.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Institute for Health Metrics and Evaluation. “Global, Regional, and National Prevalence of Dental Caries, 1990–2021.” IHME, 2023. – Comprehensive data analysis of cavity prevalence and trends over three decades across countries. (Useful for seeing which regions have made progress and how population growth and aging contribute to the persistent high burden of caries.)&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Lee, Catherine, and Mark S. Wolff. “Caries – an Ongoing Public Health Crisis.” JADA⁺ Monograph: Arginine and the Healthy Oral Microbiome, July 2023, pp. 14–18, ADA Publishing, https://pages.ada.org/hubfs/JADA+/Colgate/JADA+MONOGRAPH_complete.pdf – An accessible overview of why cavities remain widespread and new developments in management. (Defines the modern understanding of caries as a reversible demineralization process and highlights emerging tools like silver diamine fluoride and arginine toothpaste for prevention.)pages.ada.orgpages.ada.org&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;“Lumina Probiotic Cosmetic Toothpaste.” Lumina Probiotic, https://luminaprobiotic.com/ . Accessed 1 Jan. 2026.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Machado, Kristen Pratt. “Global Burden of Oral Diseases Persists.” Dimensions of Dental Hygiene, Mar 1, 2025. – News article summarizing the latest Global Burden of Disease study: 3.69 billion people have oral diseases and 2.24 billion have untreated cavities in 2021, with minimal improvement in recent years. https://dimensionsofdentalhygiene.com/global-burden-of-oral-diseases-persists/&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Patel, Mrudula. “Dental Caries Vaccine: Are We There Yet?” Letters in Applied Microbiology, 2020. – Scientific review of efforts to develop a vaccine against tooth decay. (Summarizes various vaccine strategies (protein subunit, DNA vaccines) targeting S. mutans, and discusses results from animal studies and challenges in bringing a vaccine to humans.)&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Peres, Marco A., et al. “Oral Diseases: A Global Public Health Challenge.” The Lancet, vol. 394, no. 10194, 20 July 2019, pp. 249–260, doi:10.1016/S0140-6736(19)31146-8. The Lancet. Accessed 1 Jan. 2026.&amp;amp;nbsp; – Landmark paper detailing the worldwide burden of dental caries and gum disease, and critiquing why modern dentistry has failed to eliminate these preventable conditions. (Explains how billions are affected by cavities and calls for integrated public-health solutions.)&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Rugg-Gunn, A. “Preventing the Preventable – the Enigma of Dental Caries.” British Dental Journal, vol. 191, 10 Nov. 2001, pp. 478–488, doi:10.1038/sj.bdj.4801214. Nature.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Szalinski, Christina. “Brushing with Bacteria: The Debate Over a GMO Tooth Microbe.” Undark, 17 Apr. 2024, https://undark.org/2024/04/17/brushing-with-bacteria-lumina/ . Accessed 1 Jan. 2026. – In-depth report on a biotech startup deploying a genetically engineered S. mutans probiotic (Lumina) to prevent cavities. (Covers the science behind an engineered bacteria that could confer lasting cavity resistance, as well as safety, regulatory, and ethical concerns.)&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Tawakoli, P. N., et al., editors. Abstracts: 62nd ORCA Congress, July 1–4, 2015, Brussels, Belgium. Caries Research, vol. 49, no. 4, 15 May 2015, pp. 297–369. S. Karger AG, DOI:10.1159/000381323. https://karger.com/cre/article-pdf/49/4/297/2502148/000381323.pdf&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;World Health Organization. Global Strategy and Action Plan on Oral Health 2023–2030. World Health Organization, 26 May 2024, https://www.who.int/publications/i/item/9789240090538 . Accessed 1 Jan. 2026.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;World Health Organization. “Oral Health.” World Health Organization, 17 Mar. 2025, https://www.who.int/news-room/fact-sheets/detail/oral-health . Accessed 1 Jan. 2026 – An up-to-date overview of global oral health, highlighting the prevalence of cavities (the most common health condition worldwide) and risk factors like sugar and lack of fluoride. (Provides global statistics and emphasizes oral health disparities and challenges.)&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Yang, Jingyi, et al. “Second-Generation Flagellin-rPAc Fusion Protein, KFD2-rPAc, Shows High Protective Efficacy against Dental Caries with Low Potential Side Effects.” Scientific Reports, vol. 7, no. 1, 11 Sept. 2017, article 11191, PMC5593867, doi:10.1038/s41598-017-10247-8&amp;lt;/p&amp;gt;
+</content><private></private><author>lilly</author><customField_categoryName>Health</customField_categoryName><customField_categoryLink>/index.php#health-subcards</customField_categoryLink><customField_subcardQuestion>We know how to prevent cavities, why doesn't everyone have healthy teeth? What is the bottleneck?</customField_subcardQuestion></item>

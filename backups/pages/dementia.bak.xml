@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Thu, 01 Jan 2026 12:15:35 -0800</pubDate><title>Dementia</title><url>dementia</url><meta></meta><metad></metad><menu>Dementia</menu><menuOrder>0</menuOrder><menuStatus></menuStatus><template>nosidebar.php</template><parent></parent><content>&amp;lt;p&amp;gt;&amp;lt;img alt=&amp;quot;Dementia&amp;quot; class=&amp;quot;article-image&amp;quot; src=&amp;quot;/data/uploads/dementia_article_image.png&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;
+<item><pubDate>Thu, 01 Jan 2026 16:26:11 -0800</pubDate><title>Dementia</title><url>dementia</url><meta></meta><metad></metad><menu>Dementia</menu><menuOrder>0</menuOrder><menuStatus></menuStatus><template>nosidebar.php</template><parent></parent><content>&amp;lt;figure class=&amp;quot;article_image&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;/data/uploads/dementia_article_image.png&amp;quot; /&amp;gt;
+&amp;lt;figcaption&amp;gt;55 million people worldwide live with dementia.&amp;lt;/figcaption&amp;gt;
+&amp;lt;/figure&amp;gt;
 
 &amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:24px;&amp;quot;&amp;gt;Most people have grandparents or know someone with grandparents affected by dementia which is a general term for a group of brain disorders that cause a progressive decline in cognitive abilities.&amp;amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 
@@ -25,7 +27,7 @@
 
 &amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:24px;&amp;quot;&amp;gt;Solving dementia is undeniably daunting but ultimately made up of smaller causes/problems. By focusing on these smaller, concrete problems, we are chipping away at the once &amp;quot;impossible&amp;quot; goal of defeating dementia.&amp;amp;nbsp;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 
-&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:24px;&amp;quot;&amp;gt;-------------------&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;hr&amp;gt;
 
 &amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:24px;&amp;quot;&amp;gt;If you want to learn more, here are some great sources I used for this page:&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 
@@ -37,4 +39,4 @@
 
 &amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot;font-size:24px;&amp;quot;&amp;gt;Alzheimer&amp;#039;s Association.&amp;lt;br /&amp;gt;
 	&amp;quot;CRISPR Gene Editing Shows Treatment Potential for Alzheimer&amp;#039;s.&amp;quot; Alzheimer&amp;#039;s Association International Conference (AAIC) Press Release, 16 July 2023, https://aaic.alz.org/releases_2023/crispr-gene-editing-treatment-potential-alzheimers.asp.&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-</content><private></private><author>lilly</author><customField_categoryName>Health</customField_categoryName><customField_categoryLink>/index.php#health-subcards</customField_categoryLink><customField_subcardQuestion>test</customField_subcardQuestion></item>
+</content><private></private><author>lilly</author><customField_categoryName>Health</customField_categoryName><customField_categoryLink>/index.php#health-subcards</customField_categoryLink><customField_subcardQuestion>How might we mitigate the impact dementia has on people? How might we prevent and cure dementia?</customField_subcardQuestion></item>
